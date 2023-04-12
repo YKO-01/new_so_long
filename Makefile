@@ -6,12 +6,12 @@
 #    By: ayakoubi <ayakoubi@student.1337.ma>        +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/11/22 11:42:28 by ayakoubi          #+#    #+#              #
-#    Updated: 2023/04/10 15:22:14 by ayakoubi         ###   ########.fr        #
+#    Updated: 2023/04/12 17:08:28 by ayakoubi         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME            :=      so_long
-SRCS            :=      so_long ft_utils handling_errors put_image ft_key_move lst_utils
+SRCS            :=      so_long ft_utils handling_errors put_image ft_key_move lst_utils 
 INC             =       inc
 OBJDIR          =       obj
 SRCDIR			=		src

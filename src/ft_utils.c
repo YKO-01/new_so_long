@@ -6,7 +6,7 @@
 /*   By: ayakoubi <ayakoubi@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/11/28 15:42:33 by ayakoubi          #+#    #+#             */
-/*   Updated: 2023/04/10 15:42:20 by ayakoubi         ###   ########.fr       */
+/*   Updated: 2023/04/12 17:10:31 by ayakoubi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,7 +53,9 @@ t_pos	*pos_element(t_pos *pos, char **map, char c)
 				return (pos);
 		}
 	}
-	return (pos);
+	free_2d_array(map);
+	ft_putstr_fd("Error\n", 2);
+	exit(0);
 }
 
 int	count_hieght(int fd)
